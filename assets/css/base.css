@@ -8,11 +8,16 @@
 	--font: "Raleway", sans-serif;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	color: var(--color-text);
 	line-height: 1.6;
 	font-family: var(--font);
 	margin: 0;
+	overflow-x: hidden;
 }
 
 a {

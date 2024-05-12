@@ -384,3 +384,52 @@ cul li a.active {
 /* End Blog Entries */
 
 
+/* Talk-to-us */
+
+.talk-to-us {
+    background: #F2F2FE;
+    padding: 160px 0;
+}
+.talk-to-us .inner-content .inner-title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.talk-to-us .inner-content p {
+    margin-bottom: 28px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6F8BA4;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+
+.talk-to-us .inner-form input,
+.talk-to-us .inner-form textarea {
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 50px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    padding-left: 20px;
+    background: #fff;
+}
+
+.talk-to-us .inner-form input:focus,
+.talk-to-us .inner-form textarea:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.talk-to-us .inner-form textarea {
+    height: 150px;
+    padding: 20px;
+}
+
+/* End Talk-to-us */
